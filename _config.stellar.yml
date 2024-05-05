@@ -3,3 +3,10 @@ article:
   license: ''
 footer:
   content: ''
+
+search:
+  service: algolia_search
+  algolia_search: # Docsearch https://docsearch.algolia.com/apply/ 申请
+    appId: GJNBSDNNMY
+    apiKey: 991abb908353b599017f72c73b8398b5
+    indexName: chenningcongio    
