@@ -33,7 +33,7 @@ pyproject.toml <-用来配置文件结构，便于打包安装
 
 在所有地方总是使用绝对导入，import deeplearning.XX， 不要用相对导入(from . import xxx)。
 
-> 绝对路径+flat layout的好处很简单，首先包构建支持这种layout。其次vscode-python插件可以解析绝对导入，只要你的workspace root中使用flat layout或者src layout，vscode-python会自动把这个路径加入到import解析中中。如果你打开多个项目，就会加入多个import。
+> 绝对路径+flat layout的好处很简单，首先包构建支持这种layout。其次vscode-python插件可以解析绝对导入，只要你的workspace root中使用flat layout或者src layout，vscode-python会自动把这个路径加入到import解析中中。如果你打开多个项目，就会加入多个import。 *最后一个好处是，当你在vscode用shift+enter逐行执行指令的时候，不会因为相对路径找不到顶层包而报错*。
 
 ### 脚本运行
 
